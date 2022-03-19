@@ -27,5 +27,6 @@ string Triangulo::toString(){
     s<<" "<<nombre<<endl;
     s<<"Base: "<<getLadoBase()<<endl;
     s<<"Altura: "<<altura<<endl;
+    s<<"Area: "<<calculoArea()<<endl;
     return s.str();
 }

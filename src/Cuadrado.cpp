@@ -14,5 +14,6 @@ string Cuadrado::toString(){
     stringstream s;
     s<<" "<<nombre<<endl;
     s<<"Lado: "<<ladoBase;
+    s<<"Area: "<<calculoArea()<<endl;
     return s.str();
 }

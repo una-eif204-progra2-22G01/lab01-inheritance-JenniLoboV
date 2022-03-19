@@ -18,9 +18,13 @@ int main (int argc, char *argv[]) {
     ptrC2 = new Cuadrado("Cuadrado 2", 35);
     ptrT1 = new Triangulo("Triangulo 1", 27, 57);
     ptrT2 = new Triangulo("Triangulo 2", 35, 40);
-    system("pause");
     system("cls");
+    system("pause");
 
+    cout<<ptrC1->toString()<<endl;
+    cout<<ptrC2->toString()<<endl;
+    cout<<ptrT1->toString()<<endl;
+    cout<<ptrT2->toString()<<endl;
 
     return 0;
 }
