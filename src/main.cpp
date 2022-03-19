@@ -5,8 +5,8 @@
 #include <sstream>
 #include"Cuadrado.h"
 #include"Figura.h"
-using namespace std;
 
+using namespace std;
 int main (int argc, char *argv[]) {
 
     Figura* ptrC1 = nullptr;
@@ -14,8 +14,6 @@ int main (int argc, char *argv[]) {
 
     ptrC1 = new Cuadrado("Cuadrado", 15);
     ptrC2 = new Cuadrado("Cuadrado", 20);
-
-
 
     return 0;
 }
