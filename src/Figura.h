@@ -4,21 +4,25 @@
 
 #ifndef LAB01_INHERITANCE_JENNILOBOV_FIGURA_H
 #define LAB01_INHERITANCE_JENNILOBOV_FIGURA_H
-
+#include<iostream>
+#include <sstream>
+using namespace std;
 
 class Figura {
 protected:
     string nombre;
+    double ladoBase;
 public:
-    Figura();
-    Figura(string);
     virtual ~Figura();
+    Figura();
+    Figura(string, double);
 
     void setNombre(string);
     string getNombre();
+    void setLadoBasa(double);
+    double getLadoBase();
 
-    /*virtual double metodoVirPur();*/
-    virtual string toString() = 0;
+    virtual string toString()=0;//Virtual Puro
 };
 
 
