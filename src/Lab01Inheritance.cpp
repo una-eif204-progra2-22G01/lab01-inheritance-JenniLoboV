@@ -17,6 +17,7 @@ struct Derived2 : Base {
 };
 
 // function main begins program execution//
+/*
 int main(int argc, const char *argv[]) {
     std::cout << "Welcome to the UNA!" << std::endl;
 
@@ -27,5 +28,5 @@ int main(int argc, const char *argv[]) {
     derived2.do_semothing();
 
 }
-
+*/
         // end function main //

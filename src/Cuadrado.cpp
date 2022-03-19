@@ -5,7 +5,7 @@
 #include "Cuadrado.h"
 Cuadrado::~Cuadrado(){cout<<"~Cuadrado()"<<endl;}
 Cuadrado::Cuadrado(){cout<<"Cuadrado()"<<endl;}
-Cuadrado::Cuadrado(string nombre, double alturaBase): Figura(nombre, alturaBase){}
+Cuadrado::Cuadrado(string nombre, double alturaBase): Figura(nombre, alturaBase){cout<<"Cuadrado(Parametros)"<<endl;}
 
 double Cuadrado::calculoArea(){
     return (ladoBase*4);
