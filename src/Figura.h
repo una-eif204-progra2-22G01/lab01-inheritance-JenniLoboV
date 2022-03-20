@@ -7,7 +7,7 @@
 #include<iostream>
 #include <sstream>
 using namespace std;
-
+//Clase Base
 class Figura {
 protected:
     string nombre;
