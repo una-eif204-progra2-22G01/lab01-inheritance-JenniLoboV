@@ -8,6 +8,8 @@
 #include <sstream>
 using namespace std;
 #include "Figura.h"
+
+//Clase Derivada1
 class Cuadrado: public Figura{
 public:
     ~Cuadrado();

@@ -9,6 +9,8 @@
 #include <sstream>
 using namespace std;
 #include "Figura.h"
+
+//Clase Derivada2
 class Triangulo: public Figura{
 public:
     double altura;
